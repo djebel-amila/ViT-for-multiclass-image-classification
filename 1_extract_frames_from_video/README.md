@@ -8,4 +8,4 @@ This notebook allows to extract `.jpg` frames from any local or distant video fi
 If you are using the jupyter notebook locally, the frames `jpg` files will be saved in a new folder created at the notebook’s location, notwithstanding the video source file’s location. 
 
 If you are running the `Python` script directly, you will require `python 3`, `opencv`, `numpy >= 1.21.3.`. You may open it to specify the desired framerate (currently 10 fps). To run the script, open the terminal and type `python ../path/to/script/1_extract_frames_from_video.py` followed by the path to target video (url or local), i.e.: <br>
-`#python /Users/username/Desktop/myPythonScripts/1_extract_frames_from_video.py http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4`
+`$ python /Users/username/Desktop/myPythonScripts/1_extract_frames_from_video.py http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4`
