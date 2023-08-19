@@ -1,7 +1,7 @@
 # This Python script leverages openCV (cv2) and numpy to extract the frames of a given video file at a desired framerate (10 fps by default) and saves them (with frame numbering) in a new folder as jpg images, keeping their native resolution. 
 # requires python 3, opencv, numpy >= 1.21.3. 
 # use: In terminal, run program followed by the path to video (filename), i.e.: 
-# python 1_extract_frames_from_video.py myvideo.mp4
+# python 1_extract_frames_from_video.py http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
 
 from datetime import timedelta
 import cv2
