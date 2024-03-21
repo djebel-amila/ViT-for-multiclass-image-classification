@@ -1,5 +1,5 @@
-# ViT-classification-on-video-data-pipeline
-This repository contains a complete pipeline for the classification of individual frames extracted from video data with custom labels. It contains various utilities in the form of Python script and/or Jupyter Notebooks for the convenient processing of data, the training of a Vision Transformer (ViT) model, the inference of additional data, the engraving of labels and other data on frames, and the re-assembling of the frames into new videos as final outputs. 
+# Fine-tuning ViT for classification: video pipeline utilities
+This repository contains a complete pipeline as a series of utility scripts for preparing a training set from video data, training of a ViT model, inference, frames engraving for data visualization and frames re-assembling to output annotated videos. 
 
 The pipeline contains scripts for the following tasks: 
 
