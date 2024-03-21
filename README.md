@@ -2,7 +2,7 @@
 This repository contains a complete pipeline for the classification of individual frames extracted from video data with custom labels. It contains various utilities in the form of Python script and/or Jupyter Notebooks for the convenient processing of data, the training of a Vision Transformer (ViT) model, the inference of additional data, the engraving of labels and other data on frames, and the re-assembling of the frames into new videos as final outputs. 
 
 | Index       | Title       | Description   | Colab       |
-| ----------  | ----------- | ------------- | ----------- | 
+| :----------  | :----------- | :------------- | :----------- | 
 | 1           | <a target="_blank" href="https://github.com/djebel-amila/ViT-for-multiclass-image-classification/tree/main/1_extract_frames_from_video">Extract frames from video</a>     | This script extracts `.jpg` frames from any local or remote video file at the specified frame rate (must be below or equal to the video’s actual frame rate). The resulting  `.jpg` sequence is saved with numbered filenames at the video’s native resolution in a new folder ( "`$filename`-frames") created at the script’s location (except if it is run on Colab, they will have to be downloaded). | <a target="_blank" href="https://colab.research.google.com/github/djebel-amila/ViT-for-multiclass-image-classification/blob/main/1_extract_frames_from_video/1_extract_frames_from_video.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>       |
 | 2           | Title 2     | description 2 | Colab       |
 | 3           | Title 3     | description 2 | Colab       |
